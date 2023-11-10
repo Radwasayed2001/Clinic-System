@@ -4,7 +4,9 @@ Admin@gmail.com
 # Admin-Password
 123456
 
-https://github.com/Radwasayed2001/Clinic-System/issues/5#issue-1987283587
+https://github.com/Radwasayed2001/Clinic-System/assets/120200917/e1fa1fc6-c2f4-4927-9893-cfc8d1d8e6ec
+
+
 
 ![282004050-a5dd71b8-1e4b-4ea1-a4db-abc893aab3f0](https://github.com/Radwasayed2001/Clinic-System/assets/120200917/c41b2ca3-429e-4bdd-a627-017d93f7ded8)
 
