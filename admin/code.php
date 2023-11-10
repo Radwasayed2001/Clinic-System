@@ -179,14 +179,14 @@ else if (isset($_POST['update-booking-status-btn'])) {
     $booking_query_run = mysqli_query($con, $booking_query);
     $booking = mysqli_fetch_array($booking_query_run);
     $status = $booking['status'];
-    $status_name = "Visible";
+    $status_name = "Under Process";
     if (!$status){
         $status=1;
-        $status_name = "Hidden";
+        $status_name = "Completed";
     }
     else{
         $status=0;
-        $status_name = "Visible";
+        $status_name = "Under Process";
     }
     $edit_query = "UPDATE `bookings` SET `status`='$status' WHERE `id`='$booking_id'";
     $edit_query_run = mysqli_query($con, $edit_query);

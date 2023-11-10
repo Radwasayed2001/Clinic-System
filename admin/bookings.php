@@ -37,7 +37,7 @@ include('core/myfunction.php');
                                 <td><?= $item['name']?></td>
                                 <td><?= $doctor_name['name']?></td>
                                 <td><?= $item['date']?></td>
-                                <td><?= $item['status']?'Hidden':'Visible'?></td>
+                                <td><?= $item['status']?'Completed':'Under Process'?></td>
                                 
                                 <td><a href="edit-booking-status.php?id=<?= $item['id'] ?>" class="btn btn-primary"><i class="fa-solid fa-pen-to-square fs-6"></i></a></td>
                                 <td>
